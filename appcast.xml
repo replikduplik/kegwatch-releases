@@ -3,13 +3,20 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.3.2</title>
-            <pubDate>Thu, 30 Jul 2026 12:46:48 +0300</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <title>1.3.3</title>
+            <pubDate>Thu, 30 Jul 2026 18:21:27 +0300</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.2/Kegwatch-1.3.2.dmg" length="2697076" type="application/octet-stream" sparkle:edSignature="IwuKz5qJiqhLLI8BUybeYeWd4n/UwrWkAwSXcFyfzNGnGLyBPvuJbvSh6giktkS8mlROb9HQ2iH0lsuIvcnTBA=="/>
+            <description><![CDATA[<ul>
+<li>Automatic updates: Kegwatch now updates itself</li>
+<li>Fixed the app not opening on older macOS versions</li>
+<li>Fixed the appearance of the install window</li>
+<li>Various small improvements</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.3/Kegwatch-1.3.3.dmg" length="2505332" type="application/octet-stream" sparkle:edSignature="bL5jwQVapk+Z/9920lZc94sBRsDfzHBZzZxlJhWnUl4FsaPna57wP31gLIBOKd1eJunsewd8UXBYoEdMis9uBg=="/>
         </item>
     </channel>
 </rss>
