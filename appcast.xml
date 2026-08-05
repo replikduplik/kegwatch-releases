@@ -3,20 +3,18 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.3.4</title>
-            <pubDate>Tue, 04 Aug 2026 09:23:40 +0300</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+            <title>1.3.5</title>
+            <pubDate>Wed, 05 Aug 2026 10:53:27 +0300</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>More accurate update checks — no more false "update available" from beta or build-only feeds</li>
-<li>Skips pre-release (beta) versions and updates your macOS can't run</li>
-<li>Clearer messages when an app can't be checked (including GitHub rate limits) or an update fails</li>
-<li>Various small improvements</li>
+<li>Fixed the administrator-password prompt showing Turkish text in the English interface</li>
+<li>No more false "couldn't be checked" warnings for App Store apps or apps already managed by Homebrew</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.4/Kegwatch-1.3.4.dmg" length="2525434" type="application/octet-stream" sparkle:edSignature="QAR2+kkGcMSXQDwULVStI8T9M3Pmg+zi45AV5KGQXHmhMX9fJnxFvubgBywyk0d6RVaumN7sRbl+nm+9XJToDg=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.5/Kegwatch-1.3.5.dmg" length="2756248" type="application/octet-stream" sparkle:edSignature="BH7FbBY9PcU02evx/Hp8ADNe4iOwZGj6kB8H7FufDHaQqTv3bSwG8Gmjr1TEt2Qf7lGGDkQaBfQipLGbDa4QAg=="/>
         </item>
     </channel>
 </rss>
