@@ -3,18 +3,18 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.3.5</title>
-            <pubDate>Wed, 05 Aug 2026 10:53:27 +0300</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <title>1.3.6</title>
+            <pubDate>Fri, 21 Aug 2026 11:15:23 +0300</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>Fixed the administrator-password prompt showing Turkish text in the English interface</li>
-<li>No more false "couldn't be checked" warnings for App Store apps or apps already managed by Homebrew</li>
+<li>Fixed all Homebrew updates and installs wrongly showing as failed when an untrusted third-party tap was present — they now report their real result</li>
+<li>Clearer message when an untrusted tap blocks an update, with the exact `brew trust` command to fix it</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.5/Kegwatch-1.3.5.dmg" length="2756248" type="application/octet-stream" sparkle:edSignature="BH7FbBY9PcU02evx/Hp8ADNe4iOwZGj6kB8H7FufDHaQqTv3bSwG8Gmjr1TEt2Qf7lGGDkQaBfQipLGbDa4QAg=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.6/Kegwatch-1.3.6.dmg" length="2535938" type="application/octet-stream" sparkle:edSignature="Qjrwu6tWmxi5hY6M5KBHKoY3ynvBbo/pJ4S5upzNlp9qwKAApJXKtTlhOBTnXjB7Zf3IFRL4OKO+SG9v816hBg=="/>
         </item>
     </channel>
 </rss>
