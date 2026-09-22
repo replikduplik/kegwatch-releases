@@ -3,18 +3,24 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.3.6</title>
-            <pubDate>Fri, 21 Aug 2026 11:15:23 +0300</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
+            <title>1.4.0</title>
+            <pubDate>Tue, 22 Sep 2026 09:56:25 +0300</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>Fixed all Homebrew updates and installs wrongly showing as failed when an untrusted third-party tap was present — they now report their real result</li>
-<li>Clearer message when an untrusted tap blocks an update, with the exact `brew trust` command to fix it</li>
+<li>New **Uninstall** tab: remove Homebrew casks cleanly (with leftover cleanup) and, for manually-installed apps, scan for leftover files and move everything to the Trash — reversible, with a confirmation step before anything is removed</li>
+<li>**Automatic updates** (opt-in): after a scheduled scan Kegwatch can install available app updates for you, skipping anything that needs a password and letting you know</li>
+<li>The menu bar now shows when apps were **last scanned**</li>
+<li>**Migration & backup** in Settings: export your apps to a Brewfile and reinstall them on another Mac</li>
+<li>**Update history** with a monthly summary ("N updates this month") above the Updates list</li>
+<li>Clearer help when Xcode's command-line tools license blocks a scan, with a one-tap copyable fix command</li>
+<li>Refreshed **glassy** look with a new segmented tab bar</li>
+<li>Cask rows now show the app's real icon</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.3.6/Kegwatch-1.3.6.dmg" length="2535938" type="application/octet-stream" sparkle:edSignature="Qjrwu6tWmxi5hY6M5KBHKoY3ynvBbo/pJ4S5upzNlp9qwKAApJXKtTlhOBTnXjB7Zf3IFRL4OKO+SG9v816hBg=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.4.0/Kegwatch-1.4.0.dmg" length="2717688" type="application/octet-stream" sparkle:edSignature="pmXeQKlkUDrmmwb2euBE3hrxey6+rsT0A9TfMHzqlmKPS6d4xOrTkvjJmTMF2lK8F7wTivKoWXeDvwPt80DzDA=="/>
         </item>
     </channel>
 </rss>
