@@ -16,7 +16,7 @@
 
 ---
 
-Kegwatch scans your Mac for outdated apps across **Homebrew**, **Homebrew Cask**, the **Mac App Store**, and apps with their own updaters (**Sparkle / Electron**), and updates them in one click. It can also adopt hand-installed apps into Homebrew, install new apps, and run on a schedule — all free.
+Kegwatch scans your Mac for outdated apps across **Homebrew**, **Homebrew Cask**, the **Mac App Store**, and apps with their own updaters (**Sparkle / Electron**), and updates them in one click. It can also adopt hand-installed apps into Homebrew, install new apps, uninstall them cleanly, back up and migrate your setup with a Brewfile, and run on a schedule — all free.
 
 ## ✨ Features
 
@@ -44,7 +44,15 @@ Kegwatch scans your Mac for outdated apps across **Homebrew**, **Homebrew Cask**
 
 <br><br>
 
-<img src="assets/screenshot-schedule.png" width="440" alt="Automatic scan schedule">
+<img src="assets/screenshot-uninstall.png" width="760" alt="Clean uninstall of Homebrew apps">
+
+<br><br>
+
+<img src="assets/screenshot-schedule.png" width="520" alt="Automatic scan schedule with optional auto-install">
+
+<br><br>
+
+<img src="assets/screenshot-migrate.png" width="520" alt="Export and import your apps with a Brewfile">
 
 </div>
 
