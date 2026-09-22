@@ -23,8 +23,12 @@ Kegwatch scans your Mac for outdated apps across **Homebrew**, **Homebrew Cask**
 - 🔄 **One place for every update** — Homebrew, Cask, Mac App Store, and Sparkle/Electron feeds in a single list.
 - 📥 **Move to Homebrew** — hand a manually-downloaded app (if it has a cask) to Homebrew without reinstalling. Future updates then show up automatically.
 - 🧩 **Install new apps** — browse popular apps or search Homebrew, and install right from Kegwatch.
+- 🧹 **Clean uninstall** — remove an app and its leftovers for good: Homebrew casks with a full cleanup, or hand-installed apps scanned and sent to the Trash.
 - ⏰ **Automatic scans** — on launch, every few hours, daily, or a custom schedule, with notifications when updates are found.
+- 🤖 **Automatic updates** — optionally let Kegwatch install updates for you after each scan, skipping anything that needs a password.
 - 📊 **Menu bar** — pending updates at a glance, without opening the app.
+- 🗓 **Update history** — see everything you've updated, with a running "N updates this month" summary.
+- 💾 **Migrate & back up** — export your apps to a Brewfile and reinstall them all on another Mac.
 - ⬆︎ **Self-updating** — Kegwatch keeps itself up to date.
 - 🆓 **Free.**
 
