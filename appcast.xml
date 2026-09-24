@@ -3,24 +3,20 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.4.0</title>
-            <pubDate>Tue, 22 Sep 2026 09:56:25 +0300</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <title>1.4.1</title>
+            <pubDate>Thu, 24 Sep 2026 09:48:39 +0300</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>New **Uninstall** tab: remove Homebrew casks cleanly (with leftover cleanup) and, for manually-installed apps, scan for leftover files and move everything to the Trash — reversible, with a confirmation step before anything is removed</li>
-<li>**Automatic updates** (opt-in): after a scheduled scan Kegwatch can install available app updates for you, skipping anything that needs a password and letting you know</li>
-<li>The menu bar now shows when apps were **last scanned**</li>
-<li>**Migration & backup** in Settings: export your apps to a Brewfile and reinstall them on another Mac</li>
-<li>**Update history** with a monthly summary ("N updates this month") above the Updates list</li>
-<li>Clearer help when Xcode's command-line tools license blocks a scan, with a one-tap copyable fix command</li>
-<li>Refreshed **glassy** look with a new segmented tab bar</li>
-<li>Cask rows now show the app's real icon</li>
+<li>**Release notes before you update**: expand any pending update to read that version's "what's new" — pulled on demand from the app's release page, App Store, or Sparkle feed</li>
+<li>The **"N updates this month"** summary moved to the status bar and is now clickable — see exactly which apps were updated, with their versions and dates</li>
+<li>Kegwatch no longer lists **itself** among available updates</li>
+<li>A quieter, tidier interface: a less intrusive App Store notice, a cleaner Install list, and a fix for the Settings tab bar shifting on the About page</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.4.0/Kegwatch-1.4.0.dmg" length="2717688" type="application/octet-stream" sparkle:edSignature="pmXeQKlkUDrmmwb2euBE3hrxey6+rsT0A9TfMHzqlmKPS6d4xOrTkvjJmTMF2lK8F7wTivKoWXeDvwPt80DzDA=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.4.1/Kegwatch-1.4.1.dmg" length="2845914" type="application/octet-stream" sparkle:edSignature="jOKZxiPk1pP1JhHDE8WdCjzIFMf+Z8QLtSEwOfXkiQmmh/EZk/ZOc9Y9CAeFP+jJKPjDHm1WzM5sSBTSAwgVBQ=="/>
         </item>
     </channel>
 </rss>
