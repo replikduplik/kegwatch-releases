@@ -3,20 +3,22 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.4.1</title>
-            <pubDate>Thu, 24 Sep 2026 09:48:39 +0300</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <title>1.5.0</title>
+            <pubDate>Fri, 25 Sep 2026 12:30:27 +0300</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>**Release notes before you update**: expand any pending update to read that version's "what's new" — pulled on demand from the app's release page, App Store, or Sparkle feed</li>
-<li>The **"N updates this month"** summary moved to the status bar and is now clickable — see exactly which apps were updated, with their versions and dates</li>
-<li>Kegwatch no longer lists **itself** among available updates</li>
-<li>A quieter, tidier interface: a less intrusive App Store notice, a cleaner Install list, and a fix for the Settings tab bar shifting on the About page</li>
+<li>**Password prompt, now inside Kegwatch**: when an update needs your administrator password, you're asked right in Kegwatch's own window instead of a separate system dialog — the same secure flow, just clearer about who's asking (your password is used only for that update and is never saved)</li>
+<li>**Opens ready to work**: the window now scans automatically the first time you open it, instead of waiting for you to press Refresh</li>
+<li>**A genuinely lighter Light theme**: the glassy background now adapts to your appearance, so Light mode looks properly light instead of muddy</li>
+<li>**Better VoiceOver support**: update checkboxes, version changes, and info buttons now read clearly for screen-reader users</li>
+<li>**Safer links and network checks**: Kegwatch only opens normal web links (http/https) from app update feeds, and network checks now time out and cap their size — hardening against misbehaving or malicious feeds</li>
+<li>More consistent buttons across the Update and Install tabs</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.4.1/Kegwatch-1.4.1.dmg" length="2845914" type="application/octet-stream" sparkle:edSignature="jOKZxiPk1pP1JhHDE8WdCjzIFMf+Z8QLtSEwOfXkiQmmh/EZk/ZOc9Y9CAeFP+jJKPjDHm1WzM5sSBTSAwgVBQ=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.5.0/Kegwatch-1.5.0.dmg" length="2883345" type="application/octet-stream" sparkle:edSignature="EG6g70Qmk92H+MyzCv0f+vjBrGzqTAqoLj5NGDnB+dB1LRzlfFSTFf+BrCm+rzpW9IY5Vgf3fwKn0viW+/uBDQ=="/>
         </item>
     </channel>
 </rss>
