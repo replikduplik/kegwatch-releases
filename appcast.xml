@@ -3,18 +3,19 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.5.3</title>
-            <pubDate>Tue, 27 Oct 2026 22:48:31 +0300</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+            <title>1.6.0</title>
+            <pubDate>Tue, 27 Oct 2026 23:34:16 +0300</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>Fixed a regression from 1.5.2: the "Manually Installed" section and the "Move to Homebrew" button could disappear entirely when none of your apps happened to be behind their Homebrew cask version. All manually-installed apps are listed again</li>
-<li>The "Move to Homebrew" picker now warns and disables selection for apps that are already ahead of their Homebrew cask version, since adopting them would actually replace the newer app with an older one</li>
+<li>**Uninstall command-line tools**: the Uninstall tab now lists the Homebrew formulae you installed yourself (e.g. `gh`, `nmap`, `python`) in a new "Command-line tools" section and removes them with `brew uninstall`. Packages that other formulae depend on are refused by Homebrew, and the reason is shown</li>
+<li>The Install → Popular list now correctly marks packages you've already installed, even if you installed them after the list was cached</li>
+<li>Manually-installed apps whose Homebrew cask is older than (or the same as) your installed version no longer show a misleading "upgrade" arrow to an older version, and no longer count toward the update total, menu bar badge or scan notification. They're still listed so you can move them to Homebrew</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.5.3/Kegwatch-1.5.3.dmg" length="2903106" type="application/octet-stream" sparkle:edSignature="PYJHPbtvNOxQigM4A8YWYabuU7QPsOhWCS8zjXNJKPrpYmYkrXdifBkUW7bexeg2AkbZP+Ec7JD+0q+//27RBg=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.6.0/Kegwatch-1.6.0.dmg" length="2911341" type="application/octet-stream" sparkle:edSignature="AOErVzPEymNlZ/zFYNtG5C70ttzr8qI1Y36oc2Bb6blekRCv5I6K1l5dM1fwxGkSfzVJTonovcBAw2/ks0IJBw=="/>
         </item>
     </channel>
 </rss>
