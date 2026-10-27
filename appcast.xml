@@ -3,18 +3,20 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.5.1</title>
-            <pubDate>Wed, 21 Oct 2026 09:56:47 +0300</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <title>1.5.2</title>
+            <pubDate>Tue, 27 Oct 2026 22:19:41 +0300</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>The Uninstall tab now tells you when a Homebrew cask removal fails, instead of silently doing nothing — including a direct link to System Settings when the cause is a missing Full Disk Access permission</li>
-<li>Cask removal now also clears leftover state from previous interrupted uninstalls</li>
+<li>Clearer error when macOS blocks adopting a manually-installed app into Homebrew due to the App Management privacy permission, with a one-click button straight to System Settings</li>
+<li>Kegwatch no longer offers to "update" a manually-installed app to an older Homebrew cask version — apps that already updated themselves ahead of their cask (e.g. via their own built-in updater) are no longer shown as having an available update</li>
+<li>The "Manually Installed" section now tells you when it couldn't be scanned (e.g. `brew list --cask` failed) instead of silently disappearing</li>
+<li>The menu bar badge no longer shows a stale update count after a batch install finishes</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.5.1/Kegwatch-1.5.1.dmg" length="2893465" type="application/octet-stream" sparkle:edSignature="Lhlt3XDGyQkRTM+KIohiPa8Rv1IuJlkREjBwCAw4FnqFc7eBCBKVKwq8JvWO2SSZ+4QsSRplN/BSRXUgobSJBg=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.5.2/Kegwatch-1.5.2.dmg" length="2899538" type="application/octet-stream" sparkle:edSignature="1Jrmv4jNq89WSPJR5S4bf8au0Qi42LAqMQZhVqm5LkopRZ1YiIpt+b98ZXxRtqIOhfpH/+e2Ot1yTrHq3dAMAw=="/>
         </item>
     </channel>
 </rss>
