@@ -3,20 +3,17 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.6.2</title>
-            <pubDate>Wed, 28 Oct 2026 23:39:34 +0300</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+            <title>1.6.3</title>
+            <pubDate>Thu, 29 Oct 2026 00:10:36 +0300</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>Fixed "Move to Homebrew" wrongly disabling apps that are not actually behind: apps whose Homebrew version carries a build suffix (e.g. Claude, Edge) or whose installed version has a browser-engine prefix (e.g. Brave) can be moved again. The picker now also says why an app is disabled (installed version vs. Homebrew version)</li>
-<li>The Homebrew catalog now downloads in under a second instead of minutes, so your manually-installed apps appear without a long wait after the catalog refreshes</li>
-<li>When a newer Kegwatch is available, the menu bar icon now shows an exclamation mark and the "Check for Updates" menu item says which version is ready</li>
-<li>Importing a Brewfile now warns when it contains lines that are not packages (a Brewfile can run commands), and exporting or installing a Brewfile now tells you when it fails instead of staying silent</li>
+<li>Fixed "Move to Homebrew" still blocking Brave (and similar Chromium-based apps) when Homebrew has a newer patch release than the one installed: the browser-engine number at the start of the installed version (e.g. the 156 in 156.1.98.60) is no longer mistaken for a newer app version. Brave can be moved again, and now shows the pending update</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.6.2/Kegwatch-1.6.2.dmg" length="2927593" type="application/octet-stream" sparkle:edSignature="wpsFVU6iMb3kxnAeG3ZdyyayflUOXn08td9GYcx1n3Shc6JHZagvMG3CPHJXRABi4nbhDe2OVJVs3RT15xRADg=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.6.3/Kegwatch-1.6.3.dmg" length="2927222" type="application/octet-stream" sparkle:edSignature="yf+O3nQakqs6J1cc8xGKr5RJw6BhBVN9KBxHUclQvjscs/x/Gmi5j7nHBL1OU4ilgARabV87GGLIKI+qekJ1AQ=="/>
         </item>
     </channel>
 </rss>
