@@ -3,17 +3,21 @@
     <channel>
         <title>Kegwatch</title>
         <item>
-            <title>1.6.3</title>
-            <pubDate>Thu, 29 Oct 2026 00:10:36 +0300</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+            <title>1.6.4</title>
+            <pubDate>Thu, 12 Nov 2026 11:05:13 +0300</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<ul>
-<li>Fixed "Move to Homebrew" still blocking Brave (and similar Chromium-based apps) when Homebrew has a newer patch release than the one installed: the browser-engine number at the start of the installed version (e.g. the 156 in 156.1.98.60) is no longer mistaken for a newer app version. Brave can be moved again, and now shows the pending update</li>
+<li>"Move to Homebrew" and "Upgrade" stay available after a run finishes: the summary screen is no longer a dead end, and failed or skipped apps can be selected again and retried right from it</li>
+<li>Installing `mas` from the banner now shows progress and the banner disappears once it's installed, without restarting Kegwatch. If the install fails, the reason is shown</li>
+<li>When an upgrade fails, the full reason is now shown wrapped under the app's row instead of being cut off</li>
+<li>The glass window background is now tinted, so a bright window behind Kegwatch no longer washes it out and makes text hard to read</li>
+<li>The menu bar badge now also counts updates for apps that aren't selected for upgrade</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.6.3/Kegwatch-1.6.3.dmg" length="2927222" type="application/octet-stream" sparkle:edSignature="yf+O3nQakqs6J1cc8xGKr5RJw6BhBVN9KBxHUclQvjscs/x/Gmi5j7nHBL1OU4ilgARabV87GGLIKI+qekJ1AQ=="/>
+            <enclosure url="https://github.com/replikduplik/kegwatch-releases/releases/download/v1.6.4/Kegwatch-1.6.4.dmg" length="2939600" type="application/octet-stream" sparkle:edSignature="v7AqXwbwUFEBLF14fjhnZd3ZEe86eRI0AWTpfJDd73yDPZLkqsyFBDy4ITx6tAAnvi35RZkGEZCnMxV86RIsAQ=="/>
         </item>
     </channel>
 </rss>
